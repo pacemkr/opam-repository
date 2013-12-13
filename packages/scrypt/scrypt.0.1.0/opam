@@ -9,4 +9,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "scrypt"]
 ]
-depends: ["oasis", "ocamlfind"]
+depends: ["oasis" "ocamlfind"]
