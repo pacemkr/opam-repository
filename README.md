@@ -1,20 +1,7 @@
-This repository contains OCaml package and compiler meta-data and are
-used by the default installations of [OPAM](http://opam.ocaml.org).
+### Branches explained:
 
-## How to Contribute
+`master` tracks [upstream master](https://github.com/ocaml/opam-repository). 
 
-You are welcome to clone this repository and send us back pull
-requests. You can find more documentation and useful work-flows on
-http://opam.ocaml.org.
+`<package-name>` are branched off of master. These are destined for pull requests for packages that are ready to be listed at [http://opam.ocaml.org/pkg/](http://opam.ocaml.org/pkg/)
 
-## License
-
-All the metadata contained in that repository are licensed under the
-[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
-license.
-
-Moreover, as the collection of the meta-data in this repository is
-technically a "Database" -- which is subject to a "sui generis" right
-in Europe -- we would like to stress out than even the *collection* of
-the metadata contained in opam-repository is in CC0 and thus the
-simple act of cloning opam-repository is perfectly legal.
+`develop` is the "dafault branch" and the one I keep checked out on my development machines. This branch doesn't necesarily track master. For packages that I am working on, `url` files point to relative local paths.
