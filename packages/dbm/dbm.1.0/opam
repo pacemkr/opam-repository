@@ -17,6 +17,7 @@ depexts: [
   [["centos"] ["gdbm-devel"]]
   [["rhel"] ["gdbm-devel"]]
   [["fedora"] ["gdbm-devel"]]
+  [["osx" "homebrew"] ["gdbm"]]
 ]
 patches: [
   "hasgotfix.patch"
